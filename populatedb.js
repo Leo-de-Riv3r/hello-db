@@ -1,11 +1,3 @@
-// populatedb.js
-
-// necesitamos importar mongoose
-const mongoose = require('mongoose');
-
-// importar el modelo de usuario
-const User = require('./models/User');
-
 // la URI de la db
 const db = 'mongodb+srv://hellodb:hellodb@cluster0.iyo2l.mongodb.net/hellodb?retryWrites=true&w=majority';
 
@@ -17,25 +9,36 @@ const users = [
     id: 1,
     name: 'Juan',
     mail: 'juan@mail.com',
-    birthday: '2000-05-24'
+    birthday: '2000-05-24',
+    Hinchade: 'Huracan'
   },
   {
     id: 2,
     name: 'Maria',
     mail: 'maria@mail.com',
-    birthday: '2000-02-13'
+    birthday: '2000-02-13',
+    Hinchade: 'Banfield'
   },
   {
     id: 3,
     name: 'Pedro',
     mail: 'pedro@mail.com',
-    birthday: '2000-05-19'
+    birthday: '2000-05-19',
+    Hinchade: 'Estudiantes de la plata'
   },
   {
     id: 4,
     name: 'Julia',
     mail: 'julia@mail.com',
-    birthday: '1998-03-01'
+    birthday: '1998-03-01',
+    Hinchade: 'Racingclub'
+  },
+  {
+  	id: 5,
+  	name: 'Madrid',
+  	mail: 'Holasoymadrid@santiagobernabeu.com',
+  	birthday: '2018-09-12',
+  	Hinchade: 'Boke' 
   }
 ];
 
