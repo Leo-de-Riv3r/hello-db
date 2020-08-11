@@ -8,7 +8,8 @@ const UserSchema = new mongoose.Schema({
   id: Number,
   name: String,
   mail: String,
-  birthday: Date
+  birthday: Date,
+  Hinchade: String
 });
 // el schema describe la pinta de un documento de la coleccion
 
